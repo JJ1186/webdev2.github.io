@@ -1,0 +1,277 @@
+/*<----------main---------->*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*<---------header--------->*/
+
+header{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover{color: orange;}
+
+/*----------footer---------->*/
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+}
+
+/*<----------main container---------->*/
+
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*<----------small container---------->*/
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*<----------homepage---------->*/
+
+#homepage{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+#homepage img{
+    max-width: 100%;
+}
+
+#homepage h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.homepageright{
+    padding-top: 25px;
+    text-align: right;
+}
+
+.homepageleft{
+    padding-top: 25px;
+    text-align: left;
+}
+
+.homepageright p{
+    text-align: right;
+}
+
+.homepageleft p{
+    text-align: left;
+}
+
+#aboutus{
+    text-align:center;
+    padding: 50px;
+}
+
+.click{
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.click:hover{
+    background: #FF9D60;
+}
+
+/*<----------page---------->*/
+
+.pageheader{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col img{
+    width: 100%;
+    margin: auto;
+}
+
+.col a{
+    color: black;
+}
+
+.col h3{
+    font-size: 14px;
+    margin: auto;
+}
+
+.col p{
+    font-size: 14px;
+    margin: auto;
+}
+
+.col:hover {
+    transform: translateY(-5px);
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid orange;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: #C8601F;
+    color: #fff;
+}
+
+/*<----------table---------->*/
+
+.table {
+    width: 100%;
+    border: solid 1px rgb(221,221,221);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.1px solid;
+}
+
+
+.table th{
+    padding: 10px;
+}
+
+.table td{
+    text-align: right;
+    padding: 10px;
+}
+
+.table h3{
+    text-align: center;
+}
+
+.table a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.table a:hover{
+    background-color:#C8601F;
+}
+
+/**/
+
+.contact{
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.contact h2, p{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.contact form{
+    padding: 20px;
+}
+
+.contact h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
